@@ -1,0 +1,61 @@
+{
+  "system": {
+    "githubUser": "YOUR_GITHUB_USERNAME",
+    "githubRepo": "YOUR_REPO_NAME",
+    "contentDir": "posts",
+    "aliasFile": "aliases.json"
+  },
+  "branding": {
+    "browserTitle": "My Documentation Hub",
+    "logoPrefix": "SITE",
+    "logoSuffix": "NAME",
+    "defaultColor": "#a78bfa",
+    "pinnedColor": "#f1c40f"
+  },
+  "ui": {
+    "searchPlaceholder": "Search documentation...",
+    "backBtn": "Back to Home",
+    "shareBtn": "Share Page",
+    "downloadBtn": "Download File",
+    "pinnedBanner": "Featured / Pinned",
+    "toastText": "URL Copied to Clipboard!",
+    "footerText": "© 2026 Your Organization Name. All rights reserved."
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/YOUR_USERNAME",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "label": "Discord",
+      "url": "https://discord.gg/YOUR_INVITE",
+      "icon": "fa-brands fa-discord"
+    }
+  ],
+  "tabs": [
+    {
+      "id": "docs",
+      "label": "Documentation",
+      "icon": "fa-solid fa-book-open",
+      "active": true,
+      "allowedExtensions": ["md"]
+    },
+    {
+      "id": "downloads",
+      "label": "Downloads",
+      "icon": "fa-solid fa-download",
+      "active": false,
+      "excludeExtensions": ["md"]
+    }
+
+  ],
+  "fileTypes": {
+    "md": { "icon": "fa-file-lines", "label": "Article", "isText": true },
+    "dll": { "icon": "fa-gears", "label": "Plugin", "isText": false },
+    "json": { "icon": "fa-code", "label": "Config", "isText": true },
+    "txt": { "icon": "fa-align-left", "label": "Text", "isText": true },
+    "zip": { "icon": "fa-file-zipper", "label": "Archive", "isText": false },
+    "png": { "icon": "fa-image", "label": "Image", "isText": false }
+  }
+}
