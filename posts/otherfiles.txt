@@ -1,0 +1,3 @@
+Other file types can go in here too, even in subfolders, like 'posts/balls/red_ball.png' or 'posts/code/secrethack.dll'
+
+These files will be downloadable in the secondary default tab of your website.
